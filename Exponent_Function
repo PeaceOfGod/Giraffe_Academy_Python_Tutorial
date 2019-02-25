@@ -1,0 +1,10 @@
+def raise_to_pow(base_num, pow_num):
+    result = 1
+    for i in range(pow_num):
+        result *= base_num
+        #i += 1
+    return result
+
+a = int(input("Enter base num: "))
+b = int(input("Enter power num: "))
+print(raise_to_pow(a, b))
